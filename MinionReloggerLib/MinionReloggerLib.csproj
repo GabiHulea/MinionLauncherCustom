@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{01FF14C7-A5D9-404A-8AE1-FABD633A9B55}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MinionReloggerLib</RootNamespace>
+    <AssemblyName>MinionReloggerLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\MinionLauncherGUI\bin\x86\Debug\MinionFiles\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>..\TestConsole\bin\x86\Release\MinionFiles\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="protobuf-net">
+      <HintPath>..\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\Config.cs" />
+    <Compile Include="Configuration\IniFile.cs" />
+    <Compile Include="Configuration\Settings\GeneralSettings.cs" />
+    <Compile Include="Core\ComponentClass.cs" />
+    <Compile Include="Core\ComponentManager.cs" />
+    <Compile Include="Core\ComponentResult.cs" />
+    <Compile Include="Core\ThreadManager.cs" />
+    <Compile Include="CustomEventArgs\ReloggerEventArgs.cs" />
+    <Compile Include="Enums\EComponentResult.cs" />
+    <Compile Include="Enums\ELanguages.cs" />
+    <Compile Include="Enums\ELogType.cs" />
+    <Compile Include="CustomEventArgs\LogEventArgs.cs" />
+    <Compile Include="Enums\ERelogEventType.cs" />
+    <Compile Include="Enums\ESettingsType.cs" />
+    <Compile Include="Enums\ETranslations.cs" />
+    <Compile Include="Enums\EViewState.cs" />
+    <Compile Include="Helpers\Encryption\DataProtector.cs" />
+    <Compile Include="Helpers\Input\InputBox.cs" />
+    <Compile Include="Helpers\Language\LanguageManager.cs" />
+    <Compile Include="Helpers\Language\Languages\Chinese.cs" />
+    <Compile Include="Helpers\Language\Languages\English.cs" />
+    <Compile Include="Helpers\Language\Language.cs" />
+    <Compile Include="Helpers\Language\Languages\French.cs" />
+    <Compile Include="Helpers\Language\Languages\German.cs" />
+    <Compile Include="Helpers\Language\Languages\Turkish.cs" />
+    <Compile Include="Helpers\Memory\Memory.cs" />
+    <Compile Include="Helpers\Memory\Pointers.cs" />
+    <Compile Include="Helpers\Memory\VersionChecker.cs" />
+    <Compile Include="Helpers\MyIP\GetMyIP.cs" />
+    <Compile Include="Helpers\MyIP\HTTPGet.cs" />
+    <Compile Include="Helpers\VersionControl\VersionControl.cs" />
+    <Compile Include="Imports\GW2MinionLauncher.cs" />
+    <Compile Include="Imports\Kernel32.cs" />
+    <Compile Include="Imports\User32.cs" />
+    <Compile Include="Interfaces\IRelogComponentExtension.cs" />
+    <Compile Include="Interfaces\IRelogWorker.cs" />
+    <Compile Include="Interfaces\Objects\Account.cs" />
+    <Compile Include="Interfaces\Objects\ViewStateObject.cs" />
+    <Compile Include="Interfaces\Objects\WatchObject.cs" />
+    <Compile Include="Interfaces\RelogWorkers\KillWorker.cs" />
+    <Compile Include="Interfaces\RelogWorkers\StartWorker.cs" />
+    <Compile Include="Logging\ClipboardHelper.cs" />
+    <Compile Include="Logging\Logger.cs" />
+    <Compile Include="Logging\STAHelper.cs" />
+    <Compile Include="Interfaces\IRelogComponent.cs" />
+    <Compile Include="Interfaces\Objects\BreakObject.cs" />
+    <Compile Include="Interfaces\IObject.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Threads\Implementation\GW2ManagerThread.cs" />
+    <Compile Include="Threads\Implementation\InstanceThread.cs" />
+    <Compile Include="Threads\IRelogThread.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

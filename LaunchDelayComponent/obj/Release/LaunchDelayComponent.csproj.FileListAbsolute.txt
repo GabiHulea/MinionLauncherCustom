@@ -1,0 +1,6 @@
+D:\Games\MinionRelogger-master\MinionLauncherGUI\bin\Release\Components\LaunchDelayComponent.dll
+D:\Games\MinionRelogger-master\MinionLauncherGUI\bin\Release\Components\LaunchDelayComponent.pdb
+D:\Games\MinionRelogger-master\LaunchDelayComponent\obj\Release\LaunchDelayComponent.SettingsForm.resources
+D:\Games\MinionRelogger-master\LaunchDelayComponent\obj\Release\LaunchDelayComponent.csproj.GenerateResource.Cache
+D:\Games\MinionRelogger-master\LaunchDelayComponent\obj\Release\LaunchDelayComponent.dll
+D:\Games\MinionRelogger-master\LaunchDelayComponent\obj\Release\LaunchDelayComponent.pdb

@@ -1,0 +1,7 @@
+D:\Games\MinionRelogger-master\MinionLauncherGUI\bin\Release\Components\BreakComponent.dll
+D:\Games\MinionRelogger-master\MinionLauncherGUI\bin\Release\Components\BreakComponent.pdb
+D:\Games\MinionRelogger-master\BreakComponent\obj\Release\BreakComponent.csprojResolveAssemblyReference.cache
+D:\Games\MinionRelogger-master\BreakComponent\obj\Release\BreakComponent.SettingsForm.resources
+D:\Games\MinionRelogger-master\BreakComponent\obj\Release\BreakComponent.csproj.GenerateResource.Cache
+D:\Games\MinionRelogger-master\BreakComponent\obj\Release\BreakComponent.dll
+D:\Games\MinionRelogger-master\BreakComponent\obj\Release\BreakComponent.pdb

@@ -1,0 +1,5 @@
+D:\Games\MinionRelogger-master\MinionLauncherGUI\bin\Release\Components\BasicStopComponent.dll
+D:\Games\MinionRelogger-master\MinionLauncherGUI\bin\Release\Components\BasicStopComponent.pdb
+D:\Games\MinionRelogger-master\BasicStopComponent\obj\Release\BasicStopComponent.csprojResolveAssemblyReference.cache
+D:\Games\MinionRelogger-master\BasicStopComponent\obj\Release\BasicStopComponent.dll
+D:\Games\MinionRelogger-master\BasicStopComponent\obj\Release\BasicStopComponent.pdb

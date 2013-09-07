@@ -1,0 +1,5 @@
+D:\Games\MinionRelogger-master\MinionLauncherGUI\bin\Release\Components\ComponentTest.dll
+D:\Games\MinionRelogger-master\MinionLauncherGUI\bin\Release\Components\ComponentTest.pdb
+D:\Games\MinionRelogger-master\ComponentTest\obj\Release\ComponentTest.csprojResolveAssemblyReference.cache
+D:\Games\MinionRelogger-master\ComponentTest\obj\Release\ComponentTest.dll
+D:\Games\MinionRelogger-master\ComponentTest\obj\Release\ComponentTest.pdb

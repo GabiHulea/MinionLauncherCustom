@@ -1,0 +1,2 @@
+D:\Games\MinionRelogger-master\BreakComponent\obj\Debug\BreakComponent.SettingsForm.resources
+D:\Games\MinionRelogger-master\BreakComponent\obj\Debug\BreakComponent.csproj.GenerateResource.Cache

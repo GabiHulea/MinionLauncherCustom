@@ -1,0 +1,6 @@
+D:\Games\MinionRelogger-master\MinionLauncherGUI\bin\Release\Components\SchedulerComponent.dll
+D:\Games\MinionRelogger-master\MinionLauncherGUI\bin\Release\Components\SchedulerComponent.pdb
+D:\Games\MinionRelogger-master\SchedulerComponent\obj\Release\SchedulerComponent.SettingsForm.resources
+D:\Games\MinionRelogger-master\SchedulerComponent\obj\Release\SchedulerComponent.csproj.GenerateResource.Cache
+D:\Games\MinionRelogger-master\SchedulerComponent\obj\Release\SchedulerComponent.dll
+D:\Games\MinionRelogger-master\SchedulerComponent\obj\Release\SchedulerComponent.pdb

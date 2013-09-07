@@ -1,0 +1,2 @@
+D:\Games\MinionRelogger-master\RestartDelayComponent\obj\Debug\RestartDelayComponent.SettingsForm.resources
+D:\Games\MinionRelogger-master\RestartDelayComponent\obj\Debug\RestartDelayComponent.csproj.GenerateResource.Cache

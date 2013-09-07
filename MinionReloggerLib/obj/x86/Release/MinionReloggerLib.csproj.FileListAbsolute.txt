@@ -1,0 +1,2 @@
+D:\Games\MinionRelogger-master\TestConsole\bin\x86\Release\Components\MinionReloggerLib.dll
+D:\Games\MinionRelogger-master\TestConsole\bin\x86\Release\Components\MinionReloggerLib.pdb
